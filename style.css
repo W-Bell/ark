@@ -1,0 +1,60 @@
+
+body {
+    height: 200px;
+    background-image: linear-gradient(to right, rgb(18, 95, 119), rgb(6, 76, 122));
+    text-align: center;   
+    min-width: 600px; 
+}
+
+header {
+    height: 100px;
+    width: 50%;
+    margin: auto;
+    background-color: cornflowerblue; 
+    border-style: solid;    
+}
+
+.library {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 50%;
+  }
+
+.btn-group {
+    height: 100px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-style: 3px solid black; 
+}     
+
+.button {
+    cursor: pointer;        
+    text-align: center;
+    vertical-align: middle;
+    height: 50px;
+    color: rgb(212, 224, 243);
+    background-color: rgb(179, 66, 14);
+    width: 20%; 
+    font-size: 20px;
+    border-radius: 8px; 
+    border: 2px solid black;    
+    
+}
+
+button:hover {
+    background-color: #5c2f0a; 
+    color: rgb(177, 183, 235);
+    transition: .3s;
+}
+
+#about-us, #ant, #hist {
+    color: rgb(212, 224, 243);
+    font-size: 20px;
+
+}
+
+
