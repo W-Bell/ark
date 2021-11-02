@@ -4,6 +4,7 @@ body {
     background-image: linear-gradient(to right, rgb(18, 95, 119), rgb(6, 76, 122));
     text-align: center;   
     min-width: 600px; 
+    background-repeat: no-repeat;
 }
 
 header {
